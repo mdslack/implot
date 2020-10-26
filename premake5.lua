@@ -13,6 +13,11 @@ project "implot"
 		"implot_demo.cpp",
 		"implot_items.cpp",
 	}
+	
+    includedirs
+    {
+        include_dir["imgui"],
+    }
 
 	filter "system:windows"
 		systemversion "latest"
